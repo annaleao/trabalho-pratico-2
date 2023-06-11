@@ -1,0 +1,46 @@
+body {
+  background-color: #ffffffd2;
+}
+
+.custom-container {
+    background-color: #000000;
+  }
+  
+  .conteudo-container .ratings {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+  .conteudo-container .title {
+    color: rgb(255, 255, 255);
+  }
+  .conteudo-container .price-container .old-price {
+    color: rgb(255, 0, 0);
+    text-decoration: line-through;
+  }
+  
+  .conteudo-container .stock {
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .lista-sem-estilo {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .lista-com-estilo {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .container-fluid {
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.buscape.com.br%2Fbusca%2Fjordan%2Btenis&psig=AOvVaw19FofP0s82Tm4ys7euTK4t&ust=1686523902666000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjT6aLluf8CFQAAAAAdAAAAABAE);
+  }
+
+  .container-fluid2 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  }

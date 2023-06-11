@@ -1,0 +1,262 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #24005fe0;
+    color: #000000;
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+    height: 350px;
+    padding: 20px;
+  }
+  
+  .card-title {
+    height: 50px;
+    overflow: hidden;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(27, 0, 150, 0.12);
+    margin-bottom: 20px;
+    min-height: 300px;
+  }
+
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #000000;
+  }
+
+  .image {
+    height: 200px;
+  }
+  
+  .image img {
+    display: block;
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+  }
+  
+  .content {
+    padding: 2rem 1.8rem;
+  }
+  
+  h5 {
+    margin: 0 0 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+  
+  .description {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+  
+  .card-skeleton {
+    background-color: #000000;
+    background: linear-gradient(
+      100deg,
+      rgba(255, 255, 255, 0) 40%,
+      rgba(255, 255, 255, 0.5) 50%,
+      rgba(255, 255, 255, 0) 60%
+    ) #ededed;
+    background-size: 200% 100%;
+    background-position-x: 180%;
+    animation: 1s loading ease-in-out infinite;
+  }
+  
+  @keyframes loading {
+    to {
+      background-position-x: -20%;
+    }
+  }
+  
+  .navbar-custom {
+    background-color: #24005fe0;
+    opacity: 0.9;
+  }
+  
+  .navbar-custom a.navbar-brand,
+  .navbar-custom a.nav-link {
+    color: #fff;
+  }
+  
+  .banner {
+    background-image: url(img/letreiro-luminoso-de-propaganda-para-loja-de-roupas.jpg);
+    /* Set a specific height */
+    min-height: 600px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .headline-wrapper {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .headline {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 2px 3px 8px rgba(0, 0, 0, 1);
+  }
+
+  footer{
+    background-color: #24005fe0;
+    padding: 50px 0;
+}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+    margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #000000;
+    padding-left: 10px;
+}
+.footer-col .medias-socias{
+    margin-top: 30px;
+}
+.footer-col .medias-socias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+}
+.footer-col .medias-socias a i{
+    font-size: 20px;
+}
+
+.footer-col .medias-socias a:hover{
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+}
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: #000000;
+}
+.footer-col .form-sub input::placeholder{
+    color: rgb(177, 118, 118);
+}
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px; 
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #000000;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white;        
+}
+/* Responsivo */
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px) {
+    .footer-col{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 300px){
+  .top-ranked-container {
+    width: 120%;
+  }
+  
+  .newsletter-container {
+    width: 120%;
+  }
+  
+  .footer {
+    width: 139%;
+  }
+  
+  .pagamento {
+  display: inline-block;
+  padding-left: 0;
+  
+  }
+  
+  .links {
+  
+    display: inline-block
+  }
+  
+  .social {
+  
+    display: inline-block;
+    
+  
+  }
+  
+  .contato {
+  
+    display: inline-block
+  
+  }
+  }
