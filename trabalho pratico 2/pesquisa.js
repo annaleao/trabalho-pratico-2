@@ -1,6 +1,8 @@
 //URL da API
 const apiURL = 'https://diwserver.vps.webdock.cloud/products';
 
+//I'm hosted with GitHub Pages.
+
 // Cria os cards e popula com informações da response
 function createProductCard(product) {
   return `

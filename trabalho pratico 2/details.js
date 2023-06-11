@@ -9,6 +9,8 @@ function createResponseDetails(product) {
     
     `;
   }
+
+  //I'm hosted with GitHub Pages.
   
   window.addEventListener('DOMContentLoaded', (event) => {
     const urlParams = new URLSearchParams(window.location.search);

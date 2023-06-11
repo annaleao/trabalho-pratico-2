@@ -18,6 +18,8 @@ body {
     text-decoration: line-through;
   }
   
+  /*I'm hosted with GitHub Pages.*/
+
   .conteudo-container .stock {
     color: red;
     margin-top: 10px;

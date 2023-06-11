@@ -11,6 +11,8 @@ function isPriceMatch(price, priceRange) {
     }
   }
   
+  //I'm hosted with GitHub Pages.
+
   // Verifica se a categoria do produto é a mesma selecionada
   function isCategoryMatch(productCategory, selectedCategory) {
     if (selectedCategory === '') {

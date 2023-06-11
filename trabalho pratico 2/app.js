@@ -18,6 +18,8 @@ function createSkeletonCard() {
   `;
 }
 
+//I'm hosted with GitHub Pages
+
 // Cria os cards e popula com informações da response
 function createProductCard(product, index) {
   return `
